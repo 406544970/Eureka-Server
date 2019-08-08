@@ -27,10 +27,10 @@ public class EurekaStateChangeListener {
     }
     @EventListener
     public void listen(EurekaRegistryAvailableEvent event) {
-        System.err.println("注册中心 启动");
+        System.err.println("注册中心启动");
     }
     @EventListener
     public void listen(EurekaServerStartedEvent event) {
-        System.err.println("Eureka Server 启动");
+        System.err.println("Eureka Server启动");
     }
 }
